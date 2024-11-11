@@ -28,8 +28,14 @@
   onMount(() => {
     let ctx = canvas.getContext("2d");
 
+    let welcome_string = match.argsToAstNodeMap.str.text.slice(1, -1);
+
     ctx.font = "30px Arial";
-    ctx.fillText("Hello World", 60, 60);
+    ctx.fillText(welcome_string, 65, 60);
+    for (let i = 0; i < 3; i++) {
+      ctx.strokeRect(10 + i * 10, 20 + i * 10, 30, 30);
+      ctx.strokeRect(230 + i * 10, 20 + i * 10, 30, 30);
+    }
   });
 </script>
 

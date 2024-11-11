@@ -4,7 +4,9 @@ import type { RootProjection } from "@puredit/projections/types";
 import Widget from "./Widget.svelte";
 import { parser } from "../parser";
 
-const pattern = parser.expressionPattern("Image:Canvas")`showCanvas()`;
+const str = arg("str", ["string"]);
+
+const pattern = parser.expressionPattern("Image:Canvas")`showCanvas(${str})`;
 
 const widget = svelteProjection(Widget);
 
