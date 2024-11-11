@@ -10,6 +10,11 @@
     "./vscode-extension/extension/src/declarativeProjectionSchema.json": [
       "*.puredit.yaml",
       "*.puredit.yml"
-    ]
-  }
+    ],
+    "file:///c%3A/Users/add-iv/.vscode/extensions/undefined_publisher.puredit-code-0.0.19/dist/declarativeProjectionSchema.json": "*.puredit.yaml"
+  },
+  "puredit.declarativeProjectionDescriptors": [
+    "g:\\Programming\\puredit\\vscode-extension\\test-project\\declarative-projections\\pytorch.puredit.json",
+    "g:\\Programming\\puredit\\vscode-extension\\test-project\\declarative-projections\\polars.puredit.yaml"
+  ]
 }

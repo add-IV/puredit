@@ -1,0 +1,15 @@
+{
+  "name": "@puredit/py-image",
+  "description": "Projections for a simple Image.",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "./index.ts",
+  "dependencies": {
+    "@puredit/language-config": "*",
+    "@puredit/parser": "*",
+    "@puredit/projections": "*"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.3"
+  }
+}

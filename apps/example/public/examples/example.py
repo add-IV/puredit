@@ -16,6 +16,9 @@ import torch
 # or "theta" are automatically replaced by their greek letters.
 # Click anywhere else inside the editor to close the mathematical keyword again.
 
+showRectangle()
+showCanvas()
+
 # 1. Example: A math term transformed into function.
 # Click on the blue keyboard icon 
 f, args = mathdsl.compile("20\\pi^2+\\sin x")
